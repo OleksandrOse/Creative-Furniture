@@ -1,0 +1,15 @@
+@import "../../style/utils";
+
+.details {
+  &__container {
+    @include container;
+  }
+
+  &__detail {
+    margin-bottom: 40px;
+
+    @include onTablet {
+      margin-bottom: 48px;
+    }
+  }
+}
